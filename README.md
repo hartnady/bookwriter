@@ -2,8 +2,8 @@
 * Python GPT Book Writer
 * Author: Mark Hartnady (hartnady@gmail.com)
 * Date: 22 Feb 2023
-* Usage is self-explanatory; application takes no parameters, just run it.
-* INPUTS: Application asks user for a book title, a summary, and the users name 
+* PARAMS: Application takes no parameters, just run it.
+* INPUTS: Application asks user for a book title, a short summary, and the users name 
 * OUTPUTS: A text file, a JSON file, and a formatted MS Word document containing your book's contents
 # Modules required
 * pip install transformers
