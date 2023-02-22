@@ -11,4 +11,4 @@
 * pip install tqdm
 * pip install openai
 # Other Requirements
-* You will need an OpenAI key
+* You will need an OpenAI key (https://platform.openai.com/signup)
