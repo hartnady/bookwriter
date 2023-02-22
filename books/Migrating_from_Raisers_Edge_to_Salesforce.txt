@@ -1,0 +1,220 @@
+MIGRATING FROM RAISERS EDGE TO SALESFORCE
+
+Table of contents:
+
+  1: Introduction
+     1.1: What is Raisers Edge?
+     1.2: What is Salesforce NPSP?
+  1: Introduction
+     1.1: What is Raisers Edge?
+     1.2: What is Salesforce NPSP?
+  2: Data Migration
+     2.1: Data Types
+     2.2: Data Sources
+     2.3: Data Preparation
+     2.4: Data Migration Process
+  1: Introduction
+     1.1: What is Raisers Edge?
+     1.2: What is Salesforce NPSP?
+  2: Data Migration
+     2.1: Data Types
+     2.2: Data Sources
+     2.3: Data Preparation
+     2.4: Data Migration Process
+  3: Functionality Migration
+     3.1: Campaigns
+     3.2: Events
+     3.3: Constituents
+     3.4: Gifts
+     3.5: Memberships
+  1: Introduction
+     1.1: What is Raisers Edge?
+     1.2: What is Salesforce NPSP?
+  2: Data Migration
+     2.1: Data Types
+     2.2: Data Sources
+     2.3: Data Preparation
+     2.4: Data Migration Process
+  3: Functionality Migration
+     3.1: Campaigns
+     3.2: Events
+     3.3: Constituents
+     3.4: Gifts
+     3.5: Memberships
+  4: Conclusion
+
+1.0: Introduction
+
+1.1: What is Raisers Edge?
+
+
+
+Raisers Edge is a comprehensive fundraising and donor management software solution designed to meet the needs of non-profit organizations. It is used to track donations, manage donor relationships, store donor information, and generate reports. It also provides a range of tools for managing campaigns, events, and other fundraising activities. It is designed to be intuitive and user-friendly, allowing non-profit organizations to quickly and easily manage their donor data. It also provides powerful reporting tools that allow users to track their fundraising progress and analyze their data. Raisers Edge is a popular choice for non-profit organizations of all sizes, and is used by many large non-profits, universities, and other organizations.
+
+1.2: What is Salesforce NPSP?
+
+
+
+Salesforce Non-Profit Success Pack (NPSP) is an all-in-one, cloud-based solution designed to help non-profit organizations manage their data, operations, and fundraising. It provides an integrated suite of tools that enable organizations to track donations, manage relationships with donors, volunteers, and other stakeholders, and collaborate on projects. It also provides powerful analytics and reporting capabilities, allowing organizations to better understand their operations and make data-driven decisions. NPSP is designed to be highly customizable and scalable, allowing organizations to tailor the system to their specific needs and grow as their organization grows. NPSP is also integrated with Salesforce’s other services, such as Sales Cloud and Service Cloud, allowing organizations to use the same platform for their sales and service operations.
+
+2.0: Data Migration
+
+2.1: Data Types
+
+
+
+Data migration from Raisers Edge to Salesforce NPSP consists of transferring data from one system to the other. To ensure a successful migration, it is important to understand the different types of data that can be migrated. 
+
+When migrating data from Raisers Edge to Salesforce NPSP, the following data types can be transferred:
+
+• Contacts – This includes all contact information such as name, address, email, phone number, and any other relevant data.
+
+• Donations – This includes all donation information such as donor name, donation amount, donation date, and any other relevant data.
+
+• Events – This includes all event information such as event name, location, date, time, and any other relevant data.
+
+• Campaigns – This includes all campaign information such as campaign name, goal, duration, and any other relevant data.
+
+• Memberships – This includes all membership information such as membership type, start date, end date, and any other relevant data.
+
+• Tributes – This includes all tribute information such as tribute name, tribute type, amount, and any other relevant data.
+
+• Recurring Gifts – This includes all recurring gift information such as donor name, frequency, amount, and any other relevant data.
+
+In addition to these data types, it is possible to migrate custom fields and custom objects. Custom fields are fields that have been created by the user to store specific data, and custom objects are objects that have been created by the user to store specific data. 
+
+It is important to note that not all data types can be migrated from Raisers Edge to Salesforce NPSP. For example, Raisers Edge does not support recurring gifts, so this data type cannot be migrated. Additionally, some data may need to be reformatted during the migration process. 
+
+Finally, it is important to note that Salesforce NPSP has certain data limitations and requirements. For example, Salesforce NPSP requires that all contact records have a unique identifier. Therefore, it is important to ensure that all contact records have a unique identifier before attempting to migrate them.
+
+2.2: Data Sources
+
+
+
+When migrating data and functionality from Raisers Edge to Salesforce Non-Profit Success Pack (NPSP), there are several sources of data that can be used. These sources include: 
+
+1. Raisers Edge Database: The Raisers Edge database is the primary source of data for the migration. It contains all the data that has been collected in the Raisers Edge system and is the source of all the data that will be migrated to Salesforce. 
+
+2. External Data Sources: If there is data that is not available in the Raisers Edge database, it can be imported from external sources such as spreadsheets, other databases, or web services. This data can then be used in conjunction with the Raisers Edge data to ensure a complete migration. 
+
+3. Salesforce Data: If there is existing data in Salesforce that needs to be migrated, it can be used as part of the migration process. This data can be used to supplement the Raisers Edge data or to supplement the data from external sources. 
+
+4. Migration Tool: The migration tool used to move the data from Raisers Edge to Salesforce can also be used as a source of data. The tool can be used to extract data from Raisers Edge and then map it to the appropriate objects and fields in Salesforce. 
+
+When migrating data and functionality from Raisers Edge to Salesforce Non-Profit Success Pack, it is important to consider all of these sources of data and ensure that they are used appropriately. This will ensure that the migration is successful and that all the necessary data is included.
+
+2.3: Data Preparation
+
+
+
+1. Understand the data structure of your Raisers Edge database and how it is organized. 
+2. Identify which data fields need to be migrated and which can be left behind.
+3. Clean up data in Raisers Edge to avoid importing duplicate or unnecessary information.
+4. Identify any data fields that need to be reformatted to fit the Salesforce format.
+5. Map the data fields from Raisers Edge to Salesforce NPSP.
+6. Create a plan for data migration, including the timeline and tasks.
+7. Create a backup of your Raisers Edge database before migrating.
+8. Test your data migration plan to ensure accuracy and completeness.
+9. Monitor the transfer process for any errors or discrepancies.
+10. Verify the accuracy of the data after migration.
+
+2.4: Data Migration Process
+
+
+
+1. Understand your data: Before beginning the data migration process, analyze the data you currently have in Raisers Edge to understand what data you need to move to Salesforce NPSP. This includes identifying any data that needs to be migrated, such as contacts, donations, and campaigns, as well as any custom objects and fields that need to be recreated in Salesforce.
+
+2. Prepare your data: Once you understand the data you need to migrate, you can begin to prepare it for the move. This includes cleaning up any duplicate or outdated records, ensuring that all data is in the correct format, and making sure that all required fields are populated.
+
+3. Map your data: Before you begin the migration process, it is important to map out the data fields in Raisers Edge to the corresponding fields in Salesforce NPSP. This will ensure that all data is properly transferred to the new system.
+
+4. Begin the migration: Once you have prepared and mapped your data, you are ready to begin the migration process. This can be done manually, using an automated tool, or with the help of a third-party consultant.
+
+5. Test and verify: After the data has been migrated, it is important to test and verify it to ensure that all data has been transferred correctly. This includes checking for any errors or discrepancies, as well as validating that all data is in the correct format.
+
+6. Finalize the migration: Once you have tested and verified the migrated data, you are ready to finalize the migration process. This includes completing any necessary post-migration tasks, such as setting up new users and roles, and ensuring that all data is properly secured.
+
+3.0: Functionality Migration
+
+3.1: Campaigns
+
+
+
+Campaigns are one of the most important components of a successful fundraising strategy. In Raisers Edge, campaigns are used to organize and track fundraising activities, such as direct mail campaigns, special events, and online giving. In Salesforce NPSP, campaigns are used for the same purpose.
+
+When migrating campaigns from Raisers Edge to Salesforce NPSP, there are several important steps to take. First, it is important to create a plan of action for the migration. This plan should include a timeline and a list of tasks to complete. It should also include a strategy for how to handle any existing campaigns in Raisers Edge.
+
+Once the plan is in place, it is time to begin migrating the campaigns. This is done by first creating the campaigns in Salesforce NPSP, then mapping the data from Raisers Edge to the appropriate fields in Salesforce. This process should be done carefully, as any mistakes could result in data loss or incorrect data being imported into Salesforce.
+
+Finally, it is important to test the migration to ensure that the data has been correctly imported and that all campaigns are functioning correctly. This can be done by running test campaigns and verifying the results.
+
+Once the migration is complete, it is important to review the campaigns in Salesforce and make sure they are correctly configured and working as expected. This includes verifying that the campaigns are correctly linked to the appropriate contacts, accounts, and opportunities.
+
+By following these steps, organizations can successfully migrate their campaigns from Raisers Edge to Salesforce NPSP.
+
+3.2: Events
+
+
+
+Migrating Events from Raisers Edge to Salesforce NPSP requires some setup before any data can be brought over. 
+
+First, you must create a new custom object in Salesforce to house your event information. This object should include fields such as Event Name, Event Date, Event Type, and Event Location. You should also create a custom tab in Salesforce to store the events. 
+
+Next, you must decide how you want to map the data from Raisers Edge to the new Salesforce custom object. This will involve creating custom fields in Salesforce to store the data from Raisers Edge, such as the event name, date, type, and location. 
+
+Once the fields have been created, you can begin the data migration process. You will need to export the event data from Raisers Edge into a CSV file. This file can then be imported into Salesforce using the Data Loader tool. 
+
+Once the data has been imported, you can begin setting up the functionality for the events in Salesforce. This includes setting up event registration forms, creating event dashboards, and setting up automated email reminders for registered attendees. 
+
+Finally, you will need to set up the reporting and analytics for the events in Salesforce. This will involve creating custom reports and dashboards to track event attendance, donations, and other metrics. 
+
+By following these steps, you should be able to successfully migrate your events from Raisers Edge to Salesforce NPSP.
+
+3.3: Constituents
+
+
+
+Migrating constituent data from Raisers Edge to Salesforce NPSP is a complex process that requires careful planning and execution. The first step is to ensure that all constituent records in Raisers Edge are up-to-date, complete, and accurate. This includes verifying that all required fields are populated, and that any data that is not being migrated is marked as such.
+
+Once all the necessary data is verified, the next step is to export the data from Raisers Edge into a format that can be imported into Salesforce NPSP. Depending on the version of Raisers Edge you are using, you may need to use a third-party tool to convert the data into a format that is compatible with Salesforce NPSP.
+
+Once the data is in a compatible format, it can be imported into Salesforce NPSP using the Data Loader tool. The Data Loader tool allows users to map the fields from Raisers Edge to the fields in Salesforce NPSP, ensuring that the data is imported into the correct fields.
+
+Finally, it is important to verify that the data was imported correctly. This can be done by running a comparison report between the records in Raisers Edge and the records in Salesforce NPSP. This will ensure that all of the data was accurately imported and that no data was lost in the migration process.
+
+3.4: Gifts
+
+
+
+Gifts in Raisers Edge are migrated to Salesforce NPSP as donations. Donations can be tracked on the Donation object. When migrating data, the data should be mapped to the appropriate fields in the Donation object. The donation object includes fields for the donor’s name, address, and contact information, as well as fields for the amount of the donation, the date, the type of donation, and the payment method.
+
+When migrating gifts from Raisers Edge to Salesforce, it is important to ensure that all gift-related data is accurately mapped to the appropriate fields in the Donation object. Additionally, the data should be checked for accuracy and completeness. It is also important to ensure that the payment methods are set up correctly in Salesforce, as this will allow for accurate tracking and reporting of donations. 
+
+Once the data has been migrated and verified, it can be used to generate reports and analyze donation trends. Salesforce NPSP includes a variety of reports that can be used to view and analyze donations, including reports on donation trends, donor demographics, and donation sources. Additionally, Salesforce NPSP includes features such as recurring donations and donation pages, which can be used to manage donations and encourage more donations.
+
+3.5: Memberships
+
+
+
+When migrating membership data and functionality from Raisers Edge to Salesforce NPSP, there are several steps to take. 
+
+First, you will need to map the membership types from your Raisers Edge database to the membership types in Salesforce. You can do this by creating a new membership type in Salesforce or by using existing membership types. You will then need to map the membership fields in Raisers Edge to the corresponding fields in Salesforce.
+
+Once you have mapped the membership types and fields, you will need to transfer the membership data from Raisers Edge to Salesforce. This can be done by exporting the membership data from Raisers Edge and then importing it into Salesforce. 
+
+The next step is to transfer the membership functionality from Raisers Edge to Salesforce. This includes transferring any membership-related reports, processes, and workflows. You can do this by exporting the reports, processes, and workflows from Raisers Edge and then importing them into Salesforce.
+
+Finally, you will need to configure the membership-related processes in Salesforce. This includes setting up the membership renewal process, setting up the membership expiration process, and setting up any other membership-related processes. 
+
+Once you have completed these steps, you will have successfully migrated the membership data and functionality from Raisers Edge to Salesforce.
+
+4.0: Conclusion
+
+Migrating from Raisers Edge to Salesforce Non-Profit Success Pack (NPSP) is a complex process that requires careful planning and consideration to ensure a successful transition. However, with the right guidance and resources, the process can be made easier and more efficient. The steps outlined in this book have provided a comprehensive overview of the migration process, from understanding the differences between the two systems to mapping data and functionality. 
+
+The key to a successful migration is to ensure that the data is properly mapped and the functionality is working as expected. It is also important to ensure that the data is secure and that the system is compliant with all relevant regulations. Additionally, it is essential to have a clear plan and timeline for the migration process, as well as a team of experienced professionals to help guide the process. 
+
+Finally, it is important to remember that the migration process is ongoing and requires ongoing maintenance to ensure that the data and functionality remain up to date. Regularly reviewing the system and making any necessary changes is essential to ensure that the data and functionality continue to be up to date and secure. 
+
+Overall, migrating from Raisers Edge to Salesforce Non-Profit Success Pack (NPSP) is a complex process that requires careful planning and consideration to ensure a successful transition. However, with the right guidance and resources, the process can be made easier and more efficient.
+
