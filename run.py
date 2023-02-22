@@ -142,14 +142,15 @@ if __name__ == '__main__':
                 print(res)
                 merge_json[str(i)+'.0-BODY'] = res
 
-    print(json.dumps(merge_json, indent=4))
+    #print(json.dumps(merge_json, indent=4))
+    with open(output_file.replace('txt','json'), 'w') as f:
+        f.write(json.dumps(merge_json, indent=4))
     
-    document = MailMerge('template.docx') 
-
-    #print(document.get_merge_fields())
-
-    #merge_files = { 'Title':'My Title 3', 'Sub1':'My First Sub Heading', 'Sub1Text':'My first paragraph\nNew line?', 'Sub2':'My Second Sub Heading', 'Sub2Text':'My final closing paragraph.'}
-
-    document.merge(**merge_json)
-
-    document.write('output.docx')
+    document = MailMerge('template.docx')  
+    document.merge(**merge_json) 
+    document.write(output_file.replace('txt','docx'))
+    
+    print('Output files: ')
+    print('RAW TEXT:' + output_file)
+    print('JSON:' + output_file.replace('txt','json'))
+    print('DOCX:' + output_file.replace('txt','docx'))
