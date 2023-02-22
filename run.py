@@ -152,7 +152,7 @@ if __name__ == '__main__':
 	with open(output_file.replace('txt','json'), 'w') as f:
 		f.write(json.dumps(merge_json, indent=4))
     
-	document = MailMerge('template.docx')  
+	document = MailMerge('templates/template.docx')  
 	document.merge(**merge_json) 
 	document.write(output_file.replace('txt','docx'))
     
