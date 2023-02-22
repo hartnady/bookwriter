@@ -1,6 +1,6 @@
 # bookwriter
 * Python GPT Book Writer
-* Author: Mark Hartnady (hartnady@gmail.com)
+* Author: Mark Hartnady (http://hartnady.com)
 * Date: 22 Feb 2023
 * PARAMS: Application takes no parameters, just run the run.py with latest version of Python 
 * INPUTS: Application asks user for a book title, a short summary, and the users name 
