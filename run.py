@@ -65,7 +65,7 @@ if __name__ == '__main__':
 	conception_date = str(datetime.datetime.now().date())
 	print_output = input('Do you want to see the results in real-time (\'yes\' or leave blank for no): ')
 	if print_output.upper() == 'YES': PRINT_AS_YOU_GO = True
-	output_file = title.replace(' ','_').replace('/','-').replace('"','').replace('\'','').replace('<','').replace('>','') + '.txt'
+	output_file = 'books/' + title.replace(' ','_').replace('/','-').replace('"','').replace('\'','').replace('<','').replace('>','') + '.txt'
 	subject = input('What is your book about? This book is about...')
 	with open(output_file, 'w') as f:
 		f.write(title.upper()+'\n\n')
