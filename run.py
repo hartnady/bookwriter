@@ -12,10 +12,8 @@ GBP_TOPP = 1.0
 GPT_CALL_OUT_ON = True   #To save costs, set to False when debugging or developing
 PRINT_AS_YOU_GO = False
 
-# dotenv_path = join(dirname(__file__), '.env')
 load_dotenv()
 
-# Set up your OpenAI API key
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 def cprint(text):
