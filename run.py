@@ -12,7 +12,7 @@ GPT_CALL_OUT_ON = True   #To save costs, set to False when debugging or developi
 PRINT_AS_YOU_GO = False
 
 # Set up your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "YOUR-API-KEY-HERE"
 
 def cprint(text):
 	#Conditional print
