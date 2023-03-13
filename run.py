@@ -1,6 +1,7 @@
 import openai, time, json, transformers, re, datetime, sys, os
 from mailmerge import MailMerge #pip install docx-mailmerge
 from tqdm import tqdm, trange
+from dotenv import load_dotenv
 
 MAX_TOKEN_COUNT = 4097
 GPT_MODEL = "text-davinci-003"
@@ -11,8 +12,9 @@ GBP_TOPP = 1.0
 GPT_CALL_OUT_ON = True   #To save costs, set to False when debugging or developing
 PRINT_AS_YOU_GO = False
 
-# Set up your OpenAI API key
-openai.api_key = "YOUR-API-KEY-HERE"
+load_dotenv()
+
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 def cprint(text):
 	#Conditional print
